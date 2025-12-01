@@ -202,3 +202,4 @@ wwwroot\lib\jquery\jquery.slim.js
 wwwroot\lib\jquery\jquery.slim.min.js
 wwwroot\lib\jquery\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\README.md

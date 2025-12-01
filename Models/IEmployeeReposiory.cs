@@ -6,5 +6,6 @@ namespace FullStackProject.Models
         
         IEnumerable<Employee> GetEmployee();
         Employee GetEmployeeById(int Id);
+        Employee Add(Employee employee);
     }
 }

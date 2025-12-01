@@ -30,3 +30,4 @@ C:\Users\chsan\Desktop\Sai\FullStackProject\FullStackProject\obj\Debug\net8.0\Fu
 C:\Users\chsan\Desktop\Sai\FullStackProject\FullStackProject\obj\Debug\net8.0\FullStackProject.genruntimeconfig.cache
 C:\Users\chsan\Desktop\Sai\FullStackProject\FullStackProject\obj\Debug\net8.0\ref\FullStackProject.dll
 C:\Users\chsan\Desktop\Sai\FullStackProject\FullStackProject\bin\Debug\net8.0\libman.json
+C:\Users\chsan\Desktop\Sai\FullStackProject\FullStackProject\obj\Debug\net8.0\FullStackProject.sourcelink.json

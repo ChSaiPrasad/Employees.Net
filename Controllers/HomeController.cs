@@ -31,9 +31,16 @@ namespace FullStackProject.Controllers
             Employee emp = _employeeRepository.GetEmployeeById(Id);
             return View(emp);
         }
+        [HttpGet]
         public ViewResult Create()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Employee emp)
+        {
+            Employee newEmp = _employeeRepository.Add(emp);
+            return RedirectToAction("details", new {id=newEmp.Id});
         }
         public IActionResult Privacy()
         {
