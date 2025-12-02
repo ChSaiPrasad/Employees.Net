@@ -39,8 +39,12 @@ namespace FullStackProject.Controllers
         [HttpPost]
         public IActionResult Create(Employee emp)
         {
-            Employee newEmp = _employeeRepository.Add(emp);
-            return RedirectToAction("details", new {id=newEmp.Id});
+            if (ModelState.IsValid)
+            {
+                Employee newEmp = _employeeRepository.Add(emp);
+                return RedirectToAction("details", new { id = newEmp.Id });
+            }
+            return View();
         }
         public IActionResult Privacy()
         {
