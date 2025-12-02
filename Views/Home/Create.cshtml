@@ -1,4 +1,5 @@
 ﻿@model Employee
+@inject IEmployeeReposiory _employeeReposiory
 @{
     ViewBag.Title = "Create Employee";
 }
@@ -29,4 +30,5 @@
         </div>
     </div>
     <button type="submit" asp-controller="Home" asp-action="Create" class="btn btn-primary mt-3">Create</button>
+    <p>Total Employee : @_employeeReposiory.GetAllEmployee().Count()</p>
 </form>

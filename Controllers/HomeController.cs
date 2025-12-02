@@ -14,7 +14,7 @@ namespace FullStackProject.Controllers
 
         public ViewResult Index()
         {
-            IEnumerable<Employee> emp = _employeeRepository.GetEmployee();
+            IEnumerable<Employee> emp = _employeeRepository.GetAllEmployee();
             
             //ViewBag.Employee = emp;
             return View(emp);

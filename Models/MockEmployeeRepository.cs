@@ -20,7 +20,7 @@
             return employee;
         }
 
-        public IEnumerable<Employee> GetEmployee()
+        public IEnumerable<Employee> GetAllEmployee()
         {
             return _employeeList;
         }
